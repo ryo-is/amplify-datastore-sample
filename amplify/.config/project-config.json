@@ -6,7 +6,7 @@
         "awscloudformation"
     ],
     "javascript": {
-        "framework": "react",
+        "framework": "vue",
         "config": {
             "SourceDir": "src",
             "DistributionDir": "dist",
