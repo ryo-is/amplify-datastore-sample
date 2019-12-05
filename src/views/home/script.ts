@@ -23,7 +23,14 @@ export default Vue.extend({
     },
     async queryData() {
       try {
-        this.posts = await DataStore.query(Post)
+        this.posts = await DataStore.query(
+          Post,
+          /* eslint-disable-next-line */
+          c => c.status("eq", PostStatus.ACTIVE),
+          {
+            limit: 10
+          }
+        )
         console.log(this.posts)
       } catch (err) {
         console.error(err)
