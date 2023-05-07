@@ -12,8 +12,8 @@
         "amplify-push": "node amplify/scripts/amplify-push.js"
     },
     "dependencies": {
-        "@aws-amplify/core": "^2.2.0",
-        "@aws-amplify/datastore": "^1.0.2",
+        "@aws-amplify/core": "^5.2.0",
+        "@aws-amplify/datastore": "^4.2.1",
         "@mdi/font": "^4.6.95",
         "aws-amplify": "^1.2.4",
         "core-js": "^3.4.7",
